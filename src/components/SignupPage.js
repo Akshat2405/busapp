@@ -38,8 +38,8 @@ function SignupPage() {
                         <input type="text" className="form-control" value={user.phone}  onChange={handleInputs} name="phone" id="phone" aria-describedby="emailHelp"/>
                     </div>
                     <div className="mb-3">
-                        <label htmlFor="exampleInputEmail1" className="form-label"><i className="zmdi zmdi-label-alt-outline"></i> work</label>
-                        <input type="text" className="form-control" value={user.gender}  onChange={handleInputs} name="work" id="work" aria-describedby="emailHelp"/>
+                        <label htmlFor="exampleInputEmail1" className="form-label"><i className="zmdi zmdi-label-alt-outline"></i> Gender</label>
+                        <input type="text" className="form-control" value={user.gender}  onChange={handleInputs} name="gender" id="gender" aria-describedby="emailHelp"/>
                     </div>
                     <div className="mb-3">
                         <label htmlFor="exampleInputPassword1" className="form-label"><i className="zmdi zmdi-lock-outline"></i> Password</label>

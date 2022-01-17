@@ -7,6 +7,7 @@ import Home from './components/Home'
 import ErrorPage from './components/ErrorPage';
 import SigninPage from './components/SigninPage';
 import SignupPage from './components/SignupPage'
+import BusLayout from './components/BusLayout'
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
       <Route exact path="/home" element={<Home/>}/>
       <Route exact path="/signin" element={<SigninPage/>}/>
       <Route exact path="/signup" element={<SignupPage/>}/>
+      <Route exact path="/layout" element={<BusLayout/>}/>
       <Route path="*" element={<ErrorPage/>}/>
 
     </Routes>
